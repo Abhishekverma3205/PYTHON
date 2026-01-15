@@ -42,8 +42,6 @@ for i in range(5):
 
 avg = total / 5
 print("Average =", avg)
-
-
 # Question 5
 
 
