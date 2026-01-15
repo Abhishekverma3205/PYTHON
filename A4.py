@@ -1,20 +1,4 @@
-a=10
-print(a)
 
-num = 10
-print("the value of num is:", num)
-num += 5
-print("the value of num after += 5 is:", num)
-num -= 3
-print("the value of num after -= 3 is:", num)
-num *= 2
-print("the value of num after *= 2 is:", num)
-num /= 4
-print("the value of num after /= 4 is:", num)
-num %= 3
-print("the value of num after %= 3 is:", num)
-num **= 2
-print("the value of num after **= 2 is:", num)
 
 
 
@@ -129,3 +113,14 @@ elif num == '6':
     print("Saturday")
 elif num == '7':
     print("Sunday")
+
+
+    #take a temperature input from user and print whether its hot, warm or cold
+temperature = float(input("Enter the temperature in Celsius: "))
+if temperature > 35:
+    print("It's hot.")
+elif temperature < 21:
+    print("It's cold .")
+
+else:
+    print("It's warm.")
