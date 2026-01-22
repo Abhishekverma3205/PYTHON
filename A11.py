@@ -41,3 +41,4 @@ with open(r"C:\Users\Abhishek\OneDrive\Desktop\student.txt","r") as f1:
     content = f1.readlines()
     print(content)
     
+    #open the file in r+ mode and update the first student's name from 
